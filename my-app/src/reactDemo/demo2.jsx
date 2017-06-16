@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-var names = ['hui', 'chao', 'liu']
+var names = ['Demo2:hui', 'chao', 'liu']
 class Demo2 extends Component {
     render() {
         return (
             <div>
                 {
                     names.map(function (name) {
-                        return <div>hello {name}</div>
+                        return <div key={name}>hello {name}</div>
                     })
                 }
             </div>
