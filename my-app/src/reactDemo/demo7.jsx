@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Demo7 extends Component {
     handleClick = function () {
-        this.refs.myTextInput.focus();
+        console.log("123")
     }
     render() {
         return (
