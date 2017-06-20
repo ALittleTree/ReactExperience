@@ -14,6 +14,7 @@ import Demo7 from './reactDemo/demo7'
 import Demo10 from './reactDemo/demo10'
 import Demo8 from './reactDemo/demo8'
 import Demo9 from './reactDemo/demo9'
+import BasicExample from './reactDemo/demo11'
 ReactDOM.render(< App />, document.getElementById('root'));
 ReactDOM.render(< Demo1 />, document.getElementById('demo1'));
 ReactDOM.render(< Demo2 />, document.getElementById('demo2'));
@@ -25,4 +26,5 @@ ReactDOM.render(< Demo7 />, document.getElementById('demo7'));
 ReactDOM.render(< Demo10 />, document.getElementById('demo10'));
 ReactDOM.render(< Demo8 />, document.getElementById('demo8'));
 ReactDOM.render(< Demo9 />, document.getElementById('demo9'));
+ReactDOM.render(< BasicExample />, document.getElementById('demo11'));
 registerServiceWorker();
