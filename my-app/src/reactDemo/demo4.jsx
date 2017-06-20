@@ -3,7 +3,8 @@ class Demo4 extends Component {
     render() {
         return (
             <div>
-                Demo4:{this.props.name}
+                <h2>Demo4:</h2>
+                {this.props.name}
             </div>
         );
     }
